@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -12,7 +11,7 @@
     <script src="https://kit.fontawesome.com/e3a0f6a18e.js" crossorigin="anonymous"></script>
     <title>Hockey's</title>
 </head>
-<body>
+<body class="*:font-[Manrope]">
    <header class="max-w-[1170px] m-auto">
         
         <nav class="pr-3 md:pr-0">
@@ -22,7 +21,7 @@
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52">
+                    <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 mt-3 z-[1] p-2 shadow rounded-box w-52">
                       <li><a>Home</a></li>
                       <li><a>About</a></li>
                       <li><a>Pages</a></li>
@@ -53,7 +52,7 @@
 
             <div id="slide1" class="carousel-item relative w-full">
               <img src="./Images/1.png" class="w-full" />
-              <div class="absolute flex gap-4 transform -translate-y-full -bottom-20 left-5 top-full">
+              <div class="absolute flex gap-4 transform bottom-52 left-[37%] top-[80%] md:-translate-y-full md:-bottom-20 md:left-5 md:top-full">
                 <a href="#slide4" class="btn btn-circle bg-black text-white ">❮</a> 
                 <a href="#slide2" class="btn btn-circle bg-black text-white ">❯</a>
               </div>
@@ -63,7 +62,7 @@
 
             <div id="slide2" class="carousel-item relative w-full">
               <img src="./Images/2.png" class="w-full" />
-              <div class="absolute flex gap-4 transform -translate-y-full -bottom-20 left-5 top-full">
+              <div class="absolute flex gap-4 transform bottom-52 left-[37%] top-[80%] md:-translate-y-full md:-bottom-20 md:left-5 md:top-full">
                 <a href="#slide1" class="btn btn-circle  bg-black text-white ">❮</a> 
                 <a href="#slide3" class="btn btn-circle  bg-black text-white ">❯</a>
               </div>
@@ -71,7 +70,7 @@
 
             <div id="slide3" class="carousel-item relative w-full">
               <img src="./Images/4.png" class="w-full" />
-              <div class="absolute flex gap-4 transform -translate-y-full -bottom-20 left-5 top-full">
+              <div class="absolute flex gap-4 transform bottom-52 left-[37%] top-[80%] md:-translate-y-full md:-bottom-20 md:left-5 md:top-full">
                 <a href="#slide2" class="btn btn-circle  bg-black text-white">❮</a> 
                 <a href="#slide4" class="btn btn-circle  bg-black text-white">❯</a>
               </div>
@@ -79,12 +78,19 @@
 
             <div id="slide4" class="carousel-item relative w-full">
               <img src="./Images/3.png" class="w-full" />
-              <div class="absolute flex gap-4 transform -translate-y-full -bottom-20 left-5 top-full">
+              <div class="absolute flex gap-4 transform bottom-52 left-[37%] top-[80%] md:-translate-y-full md:-bottom-20 md:left-5 md:top-full">
                 <a href="#slide3" class="btn btn-circle  bg-black text-white">❮</a> 
                 <a href="#slide1" class="btn btn-circle  bg-black text-white">❯</a>
               </div>
             </div>
 
+          </div>
+        </div>
+
+        <div class="md:relative p-5">
+          <div class=" bg-[#131318] text-white md:max-w-[550px] rounded-lg p-6 space-y-4 md:absolute right-8 bottom-10">
+            <h2 class="text-2xl font-extrabold">Meet all the heroes from the field</h2>
+            <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
           </div>
         </div>
 
